@@ -14,7 +14,7 @@ session_start();
  </div>
  <br>
  <div class="card">
-   <img src="ImagenesClub/copacancun.jpeg" class="card-img-top" alt="...">
+   <img src="ImagenesClub/copacancun.jpeg" class="card-img-top" alt="..." width="100">
    <div class="card-body">
      <h5 class="card-title">Categoria 2000 - 2002 </h5>
      <p class="card-text">Foto tomada en la Copa Cancun, despues del partido contra el equipo de belice.</p>
@@ -22,8 +22,8 @@ session_start();
    </div>
  </div>
  <br>
- <div class="card">
-   <img src="ImagenesClub/pequues2.jpeg" class="card-img-top" alt="...">
+ <div class="card" width=200px>
+   <img src="ImagenesClub/pequues2.jpeg" class="card-img-top" alt="..." width="100">
    <div class="card-body">
      <h5 class="card-title">Categoria 2012 - 2013 </h5>
      <p class="card-text">Foto tomada al finalizar el torneo infantil, donde el equipo salio Campeon.</p>
@@ -35,7 +35,7 @@ session_start();
 echo
 '<div class="card-deck">
 <div class="card">
-  <img src="ImagenesClub/cancun2.jpeg" class="card-img-top" alt="...">
+  <img src="ImagenesClub/cancun2.jpeg" class="card-img-top" alt="..." width="100">
   <div class="card-body">
     <h5 class="card-title">Copa Cancun</h5>
     <p class="card-text">Foto tomada en la copa cancun 2019 con la aparicion del jugador Rodolfo Ventura (24) y Roberto Rivas (2)</p>

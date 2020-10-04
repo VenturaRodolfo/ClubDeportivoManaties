@@ -4,7 +4,7 @@ require_once 'header.php';
 //if (!$loggedin) die ("</div></body></html>");
 echo <<<_EJEMPLO
 
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<center><div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -41,7 +41,7 @@ echo <<<_EJEMPLO
   <span class="carousel-control-next-icon" aria-hidden="true"></span>
   <span class="sr-only">Next</span>
 </a>
-</div>
+</div></center>
 _EJEMPLO;
 echo<<<_HOME
 <br><br><center><h1 class="text">Este es el club deportivo de basketball Manaties de Chetumal</h1></center>

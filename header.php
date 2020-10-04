@@ -1,24 +1,21 @@
 <?php 
-  session_start(); 
+session_start(); 
+require "vendor/autoload.php";
+
 echo <<<_INIT
 <!DOCTYPE html> 
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, 
-    initial-scale=1'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel='stylesheet' href='jquery.mobile-1.4.5.min.css'>
-    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>                 
+    <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    <script src='node_modules/jquery-mobile/js/jquery.mobile.js'></script>
+    <script type="text/javascript" src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">        
+    <link rel='stylesheet' href='styles.css' type='text/css'>    
     <script src='javascript.js'></script>
-    <script src='jquery-2.2.4.min.js'></script>
-    <script src='jquery.mobile-1.4.5.min.js'></script>
-    
-    <script src="js/jquery-3.4.1.js" ></script>
-    <script src="js/popper.js" ></script>
-    <script src="js/bootstrap.min.js"></script>
 _INIT;
-  require_once 'functions.php'; 
+  require_once 'functions.php';  
   $userstr = "Bienvenido"; 
   if (isset($_SESSION['user'])) { 
 	$user     = $_SESSION['user']; 
@@ -38,7 +35,7 @@ _INIT;
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
               <li>
-              <a href="Index.php?view=$userstr"><img src="ImagenesClub/logo1.png" width="55"></a>
+              <a href="Index.php?view=$userstr"><img src="ImagenesClub/logo1.png" width="10"></a>
               </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="Index.php?view=$userstr" data-transition="slide" >Home<span class="sr-only">(current)</span></a>

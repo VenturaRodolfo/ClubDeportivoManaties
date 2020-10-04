@@ -1,0 +1,25 @@
+{
+  "name": "clubdeportivo",
+  "version": "1.0.0",
+  "description": "tienda web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenturaRodolfo/ClubDeportivoManaties.git"
+  },
+  "keywords": [
+    "clubdeportivo"
+  ],
+  "author": "fitov54@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VenturaRodolfo/ClubDeportivoManaties/issues"
+  },
+  "homepage": "https://github.com/VenturaRodolfo/ClubDeportivoManaties#readme",
+  "dependencies": {
+    "jquery-mobile": "^1.5.0-alpha.1"
+  }
+}
