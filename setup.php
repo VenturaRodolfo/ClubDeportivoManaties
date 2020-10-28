@@ -9,14 +9,19 @@
       require_once 'functions.php';
 // tabla para usuarios.
       createtable('Usuario',
-                  'user VARCHAR(16),
+                  'id_user INT(2) NOT NULL AUTOINCREMENT,
+                   user VARCHAR(16),
                    pass VARCHAR(16),
                    INDEX(user(6))');
 //  tabla de mercancia
       createtable('VentaMERCH',
-                  'pedido VARCHAR (30),
+                  'pedido VARCHAR (30) NOT NULL,
+                   num_articulo INT(3),
+                   id_user INT (2) NOT NULL
                    talla VARCHAR (5),
-                   precio VARCHAR (4)');
+                   precio VARCHAR (4)
+                   cantidad INT (2),
+                   fecha VARCHAR (8) NOT NULL');  
 //  tabla de susbcripción
       createtable('sub',
                   'nombre VARCHAR(16),
